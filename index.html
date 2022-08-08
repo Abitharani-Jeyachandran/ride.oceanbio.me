@@ -78,7 +78,7 @@
         <li class="active"><a href="#intro">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#timeline">Timeline</a></li>
-        <li><a href="1-0-index.php#feature">Featured</a></li>
+        <li><a href="#plan">Plan</a></li>
         <!--<li><a href="1-0-index.php#feature">PFP</a></li>
         <li><a href="3-0-blue-tech-hackathon.php">Blue Tech Hackathon</a></li>-->
 
@@ -86,30 +86,54 @@
       </ul>
     </nav><!-- .nav-menu -->
 
-    <a href="#contact" class="get-started-btn scrollto">CONTACT US</a>
+    <a href="#contact" id="contact-button" class="get-started-btn scrollto">CONTACT US</a>
 
   </div>
+    
 </header><!-- End Header -->
 <!-- ======= Hero Section ======= -->
 <!-- ======= Intro Section ======= -->
+
+
+
+
 <section id="intro">
-  <div class="intro-container">
-    <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
 
-      <ol class="carousel-indicators"></ol>
+  <!-- Carousel wrapper -->
+<div
+id="carouselVideoExample"
+class="carousel slide carousel-fade"
+data-mdb-ride="carousel"
+>
 
-      <div class="carousel-inner" role="listbox">
 
+<!-- Inner -->
+<div class="carousel-inner">
+  <!-- Single item -->
+  <div class="carousel-item active" id="hero-video">
+    <video class="img-fluid" autoplay loop muted>
+      <source src="assets/img/oceanbiome-slider/hero.mp4" type="video/mp4" />
+    </video>
+  </div>
 
-        <div class="carousel-item active" style="background-image: url('assets/img/oceanbiome-slider/7956.jpg'), linear-gradient(rgba(0,0,139,0.8),rgba(0,0,205,0.8))" class="d-block w-100">
+</div>
+<!-- Inner -->
+
+<!-- Controls -->
+</div>
+<!-- Carousel wrapper -->
+<!--
+        <div class="carousel-item active" style="background-color: #FDFDFD;" class="d-block w-100">
           <div class="carousel-container">
             <div class="container">
+              <video class="img-fluid" autoplay loop muted>
+                <source src="assets/img/oceanbiome-slider/hero.mp4" type="video/mp4">
+              </video>
               <h2 data-aos="fade-up">OCEAN RIDE</h2>
             </div>
           </div>
         </div>
 
-<!--
         <div class="carousel-item" data-interval="2000" style="background-image: url('assets/img/oceanbiome-slider/oceanbiome-ocean-education.jpg')">
           <div class="carousel-container">
             <div class="container">
@@ -145,22 +169,12 @@
         </div>
       </div>
 -->
-      <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
 
-      <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-
-    </div>
   </div>
 </section><!-- End Intro Section -->
 <!-- End Hero Section -->
 <!--========================= About Section========================= -->
-<section id="about" class="about">
+<section id="about" class="about" style="background-image: url('assets/img/oceanbiome-slider/back (1).png'); background-repeat: no-repeat;">
   <div class="container">
     <div class="row">
       <div class="col-xl-8 mx-auto">
@@ -182,20 +196,22 @@
   </section>
   <!--========================= End About section========================= -->
     <!-- Start Timeline Section -->
-    <section id="timeline" class="about"></section>
+    <section id="timeline" class="about" style="background-image: url('assets/img/oceanbiome-slider/back-1.png'); ;">
     <div class="container">
       <div class="section-title col-xl-8 mx-auto text-center">
         <span data-aos="fade-up">Timeline 
         </span>
         <p>We will be covering the entire coastline of the island, crossing over 10 districts, 6 provinces, 140+ towns & villages with 11 major waypoints in coastal towns where will be conducting short but inspiring awareness sessions at.</p>
       </div>
+      <div class="text-center col-12">
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1g4yesbIOjDDp9Gv395uAXmLiFcu1lN7l&ehbc=2E312F" width="640" height="480"></iframe>
+
+      </div>
+
       <div class="row">
         <div class="col-12">
           <div class="card">
             <div class="card-body">
-              <div class="col-12 text-center">
-                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1g4yesbIOjDDp9Gv395uAXmLiFcu1lN7l&ehbc=2E312F" width="640" height="480"></iframe>
-              </div>
               <div class="mt-5">
                 <div class="timeline">
                   <div class="timeline-wrapper timeline-wrapper-warning">
@@ -205,13 +221,13 @@
                         <h6 class="timeline-title">Day 01</h6>
                       </div>
                       <div class="timeline-body">
-                        <p>Start - Colombo</p>
-                        <p>End - Hikkaduwa</p>
+                        <p>Start - Batticaloa </p>
+                        <p>End - Trincomalee</p>
                       </div>
                       <div class="timeline-footer d-flex align-items-center flex-wrap">
                           <i class="mdi mdi-heart-outline text-muted mr-1"></i>
-                          <span>135 km</span>
-                          <span class="ml-md-auto font-weight-bold">28.05.2022</span>
+                          <span>137 km</span>
+                          <span class="ml-md-auto font-weight-bold">01.09.2022</span>
                       </div>
                     </div>
                   </div>
@@ -222,12 +238,12 @@
                         <h6 class="timeline-title">Day 02</h6>
                       </div>
                       <div class="timeline-body">
-                        <p>Start - Hikkaduwa</p>
-                        <p>End - Hambantota</p>                      </div>
+                        <p>Start - Trincomalee</p>
+                        <p>End - Mullativu</p>                      </div>
                       <div class="timeline-footer d-flex align-items-center flex-wrap">
                           <i class="mdi mdi-heart-outline text-muted mr-1"></i>
-                          <span>82 km</span>
-                          <span class="ml-md-auto font-weight-bold">29.05.2022</span>
+                          <span>123 km</span>
+                          <span class="ml-md-auto font-weight-bold">02.09.2022</span>
                       </div>
                     </div>
                   </div>
@@ -238,12 +254,12 @@
                         <h6 class="timeline-title">Day 03</h6>
                       </div>
                       <div class="timeline-body">
-                        <p>Start - Hambantota</p>
-                        <p>End - Pottuvil</p>                      </div>
+                        <p>Start - Mullativu </p>
+                        <p>End - Jaffna</p>                      </div>
                       <div class="timeline-footer d-flex align-items-center flex-wrap">
                           <i class="mdi mdi-heart-outline text-muted mr-1"></i>
-                          <span>177 km</span>
-                          <span class="ml-md-auto font-weight-bold">30.05.2022</span>
+                          <span>116 km</span>
+                          <span class="ml-md-auto font-weight-bold">03.09.2022</span>
                       </div>
                     </div>
                   </div>
@@ -254,12 +270,12 @@
                         <h6 class="timeline-title">Day 04</h6>
                       </div>
                       <div class="timeline-body">
-                        <p>Start - Pottuvil</p>
-                        <p>End - Batticaloa</p>                      </div>
+                        <p>Start - Jaffna</p>
+                        <p>End - Mannar</p>                      </div>
                       <div class="timeline-footer d-flex align-items-center flex-wrap">
                           <i class="mdi mdi-heart-outline text-muted mr-1"></i>
-                          <span>112 km</span>
-                          <span class="ml-md-auto font-weight-bold">31.05.2022</span>
+                          <span>118 km</span>
+                          <span class="ml-md-auto font-weight-bold">30.09.2022</span>
                       </div>
                     </div>
                   </div>
@@ -269,13 +285,13 @@
                       <div class="timeline-heading">
                         <h6 class="timeline-title">Day 05</h6>
                       </div>
-                      <div class="timeline-body">
-                        <p>Rest Day</p>
-                                              </div>
+                      <div class="timeline-body">                       
+                        <p>Start - Mannar</p>
+                        <p>End - Puttalam</p>       </div>
                       <div class="timeline-footer d-flex align-items-center flex-wrap">
                           <i class="mdi mdi-heart-outline text-muted mr-1"></i>
-                          <span>o km</span>
-                          <span class="ml-md-auto font-weight-bold">01.06.2022</span>
+                          <span>134 km</span>
+                          <span class="ml-md-auto font-weight-bold">01.10.92022</span>
                       </div>
                     </div>
                   </div>
@@ -286,12 +302,12 @@
                         <h6 class="timeline-title">Day 06</h6>
                       </div>
                       <div class="timeline-body">
-                        <p>Start - Batticaloa </p>
-                        <p>End - Trincomalee</p>                      </div>
+                        <p>Start - Puttalam </p>
+                        <p>End - Wennappuwa</p>                      </div>
                       <div class="timeline-footer d-flex align-items-center flex-wrap">
                           <i class="mdi mdi-heart-outline text-muted mr-1"></i>
-                          <span>137 km</span>
-                          <span class="ml-md-auto font-weight-bold">02.06.2022</span>
+                          <span>100 km</span>
+                          <span class="ml-md-auto font-weight-bold">02.10.2022</span>
                       </div>
                     </div>
                   </div>
@@ -302,12 +318,12 @@
                         <h6 class="timeline-title">Day 07</h6>
                       </div>
                       <div class="timeline-body">
-                        <p>Start - Trincomalee</p>
-                        <p>End - Mullativu</p>                      </div>
+                        <p>Start - Wennappuwa </p>
+                        <p>End - Colombo</p>                      </div>
                       <div class="timeline-footer d-flex align-items-center flex-wrap">
                           <i class="mdi mdi-heart-outline text-muted mr-1"></i>
-                          <span>123 km</span>
-                          <span class="ml-md-auto font-weight-bold">03.06.2022</span>
+                          <span>53 km</span>
+                          <span class="ml-md-auto font-weight-bold">03.10.2022</span>
                       </div>
                     </div>
                   </div>
@@ -318,12 +334,12 @@
                         <h6 class="timeline-title">Day 08</h6>
                       </div>
                       <div class="timeline-body">
-                        <p>Start - Mullativu</p>
-                        <p>End - Jaffna</p>                      </div>
+                        <p>Start - Colombo</p>
+                        <p>End - Hikkaduwa</p>                      </div>
                       <div class="timeline-footer d-flex align-items-center flex-wrap">
                           <i class="mdi mdi-heart-outline text-muted mr-1"></i>
-                          <span>116 km</span>
-                          <span class="ml-md-auto font-weight-bold">04.06.2022</span>
+                          <span>135 km</span>
+                          <span class="ml-md-auto font-weight-bold">04.10.2022</span>
                       </div>
                     </div>
                   </div>
@@ -334,12 +350,12 @@
                         <h6 class="timeline-title">Day 09</h6>
                       </div>
                       <div class="timeline-body">
-                        <p>Start - Jaffna</p>
-                        <p>End - Mannar</p>                      </div>
+                        <p>Start - Hikkaduwa</p>
+                        <p>End - Hambantota</p>                      </div>
                       <div class="timeline-footer d-flex align-items-center flex-wrap">
                           <i class="mdi mdi-heart-outline text-muted mr-1"></i>
-                          <span>118 km</span>
-                          <span class="ml-md-auto font-weight-bold">05.06.2022</span>
+                          <span>82 km</span>
+                          <span class="ml-md-auto font-weight-bold">05.10.2022</span>
                       </div>
                     </div>
                   </div>
@@ -350,12 +366,12 @@
                         <h6 class="timeline-title">Day 10</h6>
                       </div>
                       <div class="timeline-body">
-                        <p>Start - Mannar</p>
-                        <p>End - Puttalam</p>                      </div>
+                        <p>Start - Hambantota</p>
+                        <p>End - Pottuvil</p>                      </div>
                       <div class="timeline-footer d-flex align-items-center flex-wrap">
                           <i class="mdi mdi-heart-outline text-muted mr-1"></i>
-                          <span>134 km</span>
-                          <span class="ml-md-auto font-weight-bold">06.06.2022</span>
+                          <span>177 km</span>
+                          <span class="ml-md-auto font-weight-bold">06.10.2022</span>
                       </div>
                     </div>
                   </div>
@@ -366,29 +382,13 @@
                         <h6 class="timeline-title">Day 11</h6>
                       </div>
                       <div class="timeline-body">
-                        <p>Start - Puttalam</p>
-                        <p>End - Wennappuwa</p> 
+                        <p>Start - Pottuvil</p>
+                        <p>End - Batticaloa</p> 
                                               </div>
                       <div class="timeline-footer d-flex align-items-center flex-wrap">
                           <i class="mdi mdi-heart-outline text-muted mr-1"></i>
-                          <span>100 km</span>
-                          <span class="ml-md-auto font-weight-bold">07.06.2022</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="timeline-wrapper timeline-inverted timeline-wrapper-info">
-                    <div class="timeline-badge"></div>
-                    <div class="timeline-panel">
-                      <div class="timeline-heading">
-                        <h6 class="timeline-title">Day 12</h6>
-                      </div>
-                      <div class="timeline-body">
-                        <p>Start - Wennappuwa </p>
-                        <p>End - Colombo</p>                      </div>
-                      <div class="timeline-footer d-flex align-items-center flex-wrap">
-                          <i class="mdi mdi-heart-outline text-muted mr-1"></i>
-                          <span>53</span>
-                          <span class="ml-md-auto font-weight-bold">08.06.2022</span>
+                          <span>112 km</span>
+                          <span class="ml-md-auto font-weight-bold">07.10.2022</span>
                       </div>
                     </div>
                   </div>
@@ -398,9 +398,156 @@
           </div>
         </div>
       </div>
-    </div><!-- End Timeline Section -->
+    </div>
+  </section><!-- End Timeline Section -->
+
+<!--========================= Plan Section========================= -->
+<section id="plan" class="about" style="background-image: url('assets/img/oceanbiome-slider/back (1).png'); background-repeat: no-repeat;">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-8 mx-auto">
+        <div class="section-title text-center">
+          <span data-aos="fade-up">What are we going to do</span>
+          <h2 data-aos="fade-up">Promote marine conservation</h2>
+          <p data-aos="fade-up">Sri Lanka was ranked among the top five marine plastic polluters of the world by earthday.org in 2019 with a mismanaged plastic waste of 1.59 million metric tons per year. There is an urgent need to raise awareness among society, institutions, and the government to address marine plastic pollution problems. This ride itself is to put attention on this dire issue of ocean pollution and depletion of marine resources and to raise awareness on sustainable and responsible consumption of the treasure trove of marine resources.
+          </p>
+
+          <h2 data-aos="fade-up">Promote physical health</h2>
+          <p data-aos="fade-up">Non-communicable diseases (NCDs) such as heart disease, stroke, cancer, diabetes, and chronic lung disease cause over 80% of deaths in Sri Lanka. Over 1/4th of the population is overweight. We would like to address these issues as well by promoting the importance of aerobic physical activities such as cycling.
+          </p>
+
+          <h2 data-aos="fade-up">Promote zero emission green transportation </h2>
+          <p data-aos="fade-up">In 2020, CO2 emissions from transport for Sri Lanka were 9 metric tons. Many public and private transportation methods still use primarily fossil fuels which adds to the climate change crisis. Through this long-distance bicycle ride, we aim to motivate our fellow citizens to choose clean transportation methods and reduce their carbon footprint. </p>
+          
+          <h2 data-aos="fade-up">Promote the drive towards Blue Economy</h2>
+          <p data-aos="fade-up">With over 517,000 sq.km of exclusive economic zone on the ocean belonging to Sri Lanka which is around 8 times our land mass, why should our country be classed as lower-middle-income and our primary contributor to GDP be the service sector?
+            We want to put attention to the importance of developing a sustainable blue economy and to improve the livelihood of over 33% of total population who depend on ocean resources residing in coastal areas.
+            
+          </p>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  </section>
+  <!--========================= End About section========================= -->
+
+<!-- Start Ambassador  Section -->
+<section id="contact" class="contact" style="background-image: url('assets/img/oceanbiome-slider/back-1.png'); background-repeat: no-repeat;">
+  <div class="container">
+
+    <div class="section-title col-xl-8 mx-auto text-center">
+      <span data-aos="fade-up">Ambassadors</span>
+      <p></p>
+    </div>
+
+    <div class="col-md-12">
+      <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+  
+          <ol class="invisible carousel-indicators">
+              <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#blogCarousel" data-slide-to="1"></li>
+          </ol>
+  
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+  
+              <div class="carousel-item active">
+                  <div class="row">
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                          <div class="our-team">
+                              <div class="pic">
+                                  <img src="assets/img/team/Asha_de_Vos.jpg">
+                              </div>
+                              <div class="team-content">
+                                  <h3 class="title">Asha De Vos</h3>
+                                  <span class="post">Asha de Vos is a Sri Lankan marine biologist, ocean educator and pioneer of blue whale research within the northern Indian Ocean</span>
+                              </div>
+                              <ul class="social">
+                                  <li>
+                                      <a href="#" class="fa fa-envelope"></a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+  
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                          <div class="our-team">
+                              <div class="pic">
+                                  <img src="assets/img/team/sam.jpg">
+                              </div>
+                              <div class="team-content">
+                                  <h3 class="title">Sam Fricker</h3>
+                                  <span class="post">Samuel Fricker is an Australian diver. He competed in the 2020 Summer Olympics</span>
+                              </div>
+                              <ul class="social">
+                                  <li>
+                                      <a href="#" class="fa fa-envelope"></a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 col-md-12 col-sm-12">
+                          <div class="our-team">
+                              <div class="pic">
+                                  <img src="assets/img/team/maria.jpg">
+                              </div>
+                              <div class="team-content">
+                                  <h3 class="title">Maria Novolodskaya</h3>
+                                  <span class="post">Maria Yuryevna Novolodskaya is a Russian racing cyclist. She rode in the 2020 Summer Olympics for the Russian Federation.
+                                    </span>
+                              </div>
+                              <ul class="social">
+                                  <li>
+                                      <a href="#" class="fa fa-envelope"></a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  <!--.row-->
+              </div>
+              <!--.item-->
+  
+          </div>
+          <!--.carousel-inner-->
+      </div>
+      <!--.Carousel-->
+  
+  </div>
+  </div>
+</section><!-- End Ambassador  Section -->
+
+
+<!-- Start partners Section -->
+<section id="partners" >
+  <div class="container">
+
+    <div class="section-title col-xl-8 mx-auto text-center">
+      <span data-aos="fade-up">Partners</span>
+      <p></p>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="assets/img/dreamspace-logo.png" alt="Card image cap">
+    </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/img/nysc.png" alt="Card image cap">
+        </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="assets/img/dreamspace-logo.png" alt="Card image cap">
+            </div>
+              </div>
+    </div>
+  </div>
+</section><!-- End partners Section -->
+
 <!-- Start Contact Us Section -->
-  <section id="contact" class="contact">
+  <section id="contact" class="contact" style="background-image: url('assets/img/oceanbiome-slider/back (1).png'); background-repeat: no-repeat;">
     <div class="container">
   
       <div class="section-title col-xl-8 mx-auto text-center">
@@ -471,7 +618,7 @@
       <a target="_blank" href="https://www.linkedin.com/company/oceanbiome" class="linkedin"><i class="icofont-linkedin"></i></a>
     </div>
     <div class="copyright">
-      &copy; <?php echo date('Y'); ?> Copyright <strong><span><a target="_blank" href="https://oceanbio.me/pages/1-0-index.php">OceanBiome</a></span></strong>. All Rights Reserved.
+      &copy; 2022 Copyright <strong><span><a target="_blank" href="https://oceanbio.me/pages/1-0-index.php">OceanBiome</a></span></strong>. All Rights Reserved.
     </div>
     <div class="credits">
       Co-created by <a target="_blank" href="https://www.linkedin.com/in/abitharani-jeyachandran-8372b6199/">Abitharani.J</a> & <a target="_blank" href="https://www.linkedin.com/in/shanjeevan-amalanathan">Shanjeevan.A</a></br>
