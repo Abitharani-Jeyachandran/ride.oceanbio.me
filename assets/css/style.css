@@ -371,133 +371,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
-#intro {
-  width: 100%;
-  height: 40vh;
-  background: #fff;
-  overflow: hidden;
-  position: relative;
-}
-
-@media only screen and (min-width: 600px) {
-  #intro{
-    height: 60vh;
-  }
-}
-@media only screen and (min-width: 768px) {
-  #intro{
-    height: 80vh;
-  }
-}
-
-@media only screen and (min-width: 991px) {
-  #intro{
-    height: 100vh;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  #intro{
-    height: 130vh;
-  }
-}
-
-
-
-#intro .carousel, #intro .carousel-inner, #intro .carousel-item, #intro .carousel-item::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-}
-
-#intro .carousel-item {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-#intro .carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 150px;
-  top: 0;
-  left: 50px;
-  right: 50px;
-}
-
-#intro .container {
-  text-align: center;
-}
-
-#intro h2 {
-  color: #fff;
-  margin-top: 250px;
-  font-size: 40px;
-  font-weight: 700;
-}
-
-@media (max-width: 768px) {
-  #intro h2 {
-    font-size: 28px;
-  }
-}
-
-#intro .carousel-fade {
-  overflow: hidden;
-}
-
-#intro .carousel-fade .carousel-inner .carousel-item {
-  transition-property: opacity;
-}
-
-#intro .carousel-fade .carousel-inner .carousel-item,
-#intro .carousel-fade .carousel-inner .active.carousel-item-left,
-#intro .carousel-fade .carousel-inner .active.carousel-item-right {
-  opacity: 0;
-}
-
-#intro .carousel-fade .carousel-inner .active,
-#intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-left,
-#intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-right {
-  opacity: 1;
-  transition: 0.5s;
-}
-
-#intro .carousel-fade .carousel-inner .carousel-item-next,
-#intro .carousel-fade .carousel-inner .carousel-item-prev,
-#intro .carousel-fade .carousel-inner .active.carousel-item-left,
-#intro .carousel-fade .carousel-inner .active.carousel-item-right {
-  left: 0;
-  transform: translate3d(0, 0, 0);
-}
-
-#intro .carousel-control-prev, #intro .carousel-control-next {
-  width: 10%;
-}
-
-@media (min-width: 1024px) {
-  #intro .carousel-control-prev, #intro .carousel-control-next {
-    width: 5%;
-  }
-}
-
-#intro .carousel-control-next-icon, #intro .carousel-control-prev-icon {
-  background: none;
-  font-size: 32px;
-  line-height: 1;
-}
-
-#intro .carousel-indicators li {
-  cursor: pointer;
-}
-
-/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
@@ -1390,10 +1263,10 @@ margin-bottom:10px;
   text-align: center;
   overflow: hidden;
   position: relative;
-  border-bottom: 5px solid #00325a;
+  border-bottom: 5px solid #274B6C;
 }
 .our-team:hover {
-  border-bottom: 5px solid #2f2f2f;
+  border-bottom: 5px solid #0177A8;
 }
 
 .our-team .pic {
@@ -1409,7 +1282,7 @@ margin-bottom:10px;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #00325a;
+  background: #274B6C;
   position: absolute;
   bottom: 135%;
   right: 0;
@@ -1420,14 +1293,14 @@ margin-bottom:10px;
 }
 .our-team:hover .pic:before {
   height: 100%;
-  background: #2f2f2f;
+  background: #0177A8;
 }
 .our-team .pic:after {
   content: "";
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #ffffff00;
+  background: #274B6C;
   position: absolute;
   top: 0;
   left: 0;
@@ -1435,7 +1308,7 @@ margin-bottom:10px;
   transition: all 0.3s linear 0s;
 }
 .our-team:hover .pic:after {
-  background: #145889;
+  background: #0177A8;
 }
 .our-team .pic img {
   width: 100%;
